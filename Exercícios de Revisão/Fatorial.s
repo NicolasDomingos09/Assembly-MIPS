@@ -1,9 +1,9 @@
 .data
-	msg1: .asciiz "\nDigite um número inteiro: "
+	msg1: .asciiz "\nDigite um nÃºmero inteiro: "
     msgresul: .asciiz "\nFatorial: "
 .text
 
-Main:
+main:
     li $v0, 4
     la $a0, msg1
     syscall
